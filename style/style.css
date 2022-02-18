@@ -75,6 +75,7 @@ p, h1, h2, h3 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  z-index: 600;
 }
 
 .navigation__list {
@@ -216,7 +217,7 @@ p, h1, h2, h3 {
 }
 
 .footer {
-  height: 70px;
+  height: 50px;
   position: relative;
   z-index: 500;
   padding-top: 10px;
@@ -337,7 +338,7 @@ p, h1, h2, h3 {
 }
 
 .main_slider {
-  height: calc(100% - 120px);
+  height: calc(100% - 100px);
 }
 
 .slider-main {
